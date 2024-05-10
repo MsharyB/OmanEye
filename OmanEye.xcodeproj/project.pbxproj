@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		324DCF602BEDF91D00EEEAC2 /* OmanEyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324DCF5F2BEDF91D00EEEAC2 /* OmanEyeApp.swift */; };
+		324DCF622BEDF91D00EEEAC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324DCF612BEDF91D00EEEAC2 /* ContentView.swift */; };
+		324DCF642BEDF91D00EEEAC2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324DCF632BEDF91D00EEEAC2 /* Item.swift */; };
+		324DCF662BEDF91F00EEEAC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324DCF652BEDF91F00EEEAC2 /* Assets.xcassets */; };
+		324DCF6A2BEDF91F00EEEAC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324DCF692BEDF91F00EEEAC2 /* Preview Assets.xcassets */; };
+		324DCF742BEDF92000EEEAC2 /* OmanEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324DCF732BEDF92000EEEAC2 /* OmanEyeTests.swift */; };
+		324DCF7E2BEDF92000EEEAC2 /* OmanEyeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324DCF7D2BEDF92000EEEAC2 /* OmanEyeUITests.swift */; };
+		324DCF802BEDF92000EEEAC2 /* OmanEyeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324DCF7F2BEDF92000EEEAC2 /* OmanEyeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		324DCF702BEDF92000EEEAC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 324DCF542BEDF91D00EEEAC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 324DCF5B2BEDF91D00EEEAC2;
+			remoteInfo = OmanEye;
+		};
+		324DCF7A2BEDF92000EEEAC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 324DCF542BEDF91D00EEEAC2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 324DCF5B2BEDF91D00EEEAC2;
+			remoteInfo = OmanEye;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		324DCF5C2BEDF91D00EEEAC2 /* OmanEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OmanEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		324DCF5F2BEDF91D00EEEAC2 /* OmanEyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmanEyeApp.swift; sourceTree = "<group>"; };
+		324DCF612BEDF91D00EEEAC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		324DCF632BEDF91D00EEEAC2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		324DCF652BEDF91F00EEEAC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		324DCF672BEDF91F00EEEAC2 /* OmanEye.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OmanEye.entitlements; sourceTree = "<group>"; };
+		324DCF692BEDF91F00EEEAC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		324DCF6F2BEDF92000EEEAC2 /* OmanEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmanEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		324DCF732BEDF92000EEEAC2 /* OmanEyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmanEyeTests.swift; sourceTree = "<group>"; };
+		324DCF792BEDF92000EEEAC2 /* OmanEyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmanEyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		324DCF7D2BEDF92000EEEAC2 /* OmanEyeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmanEyeUITests.swift; sourceTree = "<group>"; };
+		324DCF7F2BEDF92000EEEAC2 /* OmanEyeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmanEyeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		324DCF592BEDF91D00EEEAC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324DCF6C2BEDF92000EEEAC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324DCF762BEDF92000EEEAC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		324DCF532BEDF91D00EEEAC2 = {
+			isa = PBXGroup;
+			children = (
+				324DCF5E2BEDF91D00EEEAC2 /* OmanEye */,
+				324DCF722BEDF92000EEEAC2 /* OmanEyeTests */,
+				324DCF7C2BEDF92000EEEAC2 /* OmanEyeUITests */,
+				324DCF5D2BEDF91D00EEEAC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		324DCF5D2BEDF91D00EEEAC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				324DCF5C2BEDF91D00EEEAC2 /* OmanEye.app */,
+				324DCF6F2BEDF92000EEEAC2 /* OmanEyeTests.xctest */,
+				324DCF792BEDF92000EEEAC2 /* OmanEyeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		324DCF5E2BEDF91D00EEEAC2 /* OmanEye */ = {
+			isa = PBXGroup;
+			children = (
+				324DCF5F2BEDF91D00EEEAC2 /* OmanEyeApp.swift */,
+				324DCF612BEDF91D00EEEAC2 /* ContentView.swift */,
+				324DCF632BEDF91D00EEEAC2 /* Item.swift */,
+				324DCF652BEDF91F00EEEAC2 /* Assets.xcassets */,
+				324DCF672BEDF91F00EEEAC2 /* OmanEye.entitlements */,
+				324DCF682BEDF91F00EEEAC2 /* Preview Content */,
+			);
+			path = OmanEye;
+			sourceTree = "<group>";
+		};
+		324DCF682BEDF91F00EEEAC2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				324DCF692BEDF91F00EEEAC2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		324DCF722BEDF92000EEEAC2 /* OmanEyeTests */ = {
+			isa = PBXGroup;
+			children = (
+				324DCF732BEDF92000EEEAC2 /* OmanEyeTests.swift */,
+			);
+			path = OmanEyeTests;
+			sourceTree = "<group>";
+		};
+		324DCF7C2BEDF92000EEEAC2 /* OmanEyeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				324DCF7D2BEDF92000EEEAC2 /* OmanEyeUITests.swift */,
+				324DCF7F2BEDF92000EEEAC2 /* OmanEyeUITestsLaunchTests.swift */,
+			);
+			path = OmanEyeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		324DCF5B2BEDF91D00EEEAC2 /* OmanEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 324DCF832BEDF92000EEEAC2 /* Build configuration list for PBXNativeTarget "OmanEye" */;
+			buildPhases = (
+				324DCF582BEDF91D00EEEAC2 /* Sources */,
+				324DCF592BEDF91D00EEEAC2 /* Frameworks */,
+				324DCF5A2BEDF91D00EEEAC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OmanEye;
+			productName = OmanEye;
+			productReference = 324DCF5C2BEDF91D00EEEAC2 /* OmanEye.app */;
+			productType = "com.apple.product-type.application";
+		};
+		324DCF6E2BEDF92000EEEAC2 /* OmanEyeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 324DCF862BEDF92000EEEAC2 /* Build configuration list for PBXNativeTarget "OmanEyeTests" */;
+			buildPhases = (
+				324DCF6B2BEDF92000EEEAC2 /* Sources */,
+				324DCF6C2BEDF92000EEEAC2 /* Frameworks */,
+				324DCF6D2BEDF92000EEEAC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				324DCF712BEDF92000EEEAC2 /* PBXTargetDependency */,
+			);
+			name = OmanEyeTests;
+			productName = OmanEyeTests;
+			productReference = 324DCF6F2BEDF92000EEEAC2 /* OmanEyeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		324DCF782BEDF92000EEEAC2 /* OmanEyeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 324DCF892BEDF92000EEEAC2 /* Build configuration list for PBXNativeTarget "OmanEyeUITests" */;
+			buildPhases = (
+				324DCF752BEDF92000EEEAC2 /* Sources */,
+				324DCF762BEDF92000EEEAC2 /* Frameworks */,
+				324DCF772BEDF92000EEEAC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				324DCF7B2BEDF92000EEEAC2 /* PBXTargetDependency */,
+			);
+			name = OmanEyeUITests;
+			productName = OmanEyeUITests;
+			productReference = 324DCF792BEDF92000EEEAC2 /* OmanEyeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		324DCF542BEDF91D00EEEAC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					324DCF5B2BEDF91D00EEEAC2 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					324DCF6E2BEDF92000EEEAC2 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 324DCF5B2BEDF91D00EEEAC2;
+					};
+					324DCF782BEDF92000EEEAC2 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 324DCF5B2BEDF91D00EEEAC2;
+					};
+				};
+			};
+			buildConfigurationList = 324DCF572BEDF91D00EEEAC2 /* Build configuration list for PBXProject "OmanEye" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 324DCF532BEDF91D00EEEAC2;
+			productRefGroup = 324DCF5D2BEDF91D00EEEAC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				324DCF5B2BEDF91D00EEEAC2 /* OmanEye */,
+				324DCF6E2BEDF92000EEEAC2 /* OmanEyeTests */,
+				324DCF782BEDF92000EEEAC2 /* OmanEyeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		324DCF5A2BEDF91D00EEEAC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324DCF6A2BEDF91F00EEEAC2 /* Preview Assets.xcassets in Resources */,
+				324DCF662BEDF91F00EEEAC2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324DCF6D2BEDF92000EEEAC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324DCF772BEDF92000EEEAC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		324DCF582BEDF91D00EEEAC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324DCF622BEDF91D00EEEAC2 /* ContentView.swift in Sources */,
+				324DCF642BEDF91D00EEEAC2 /* Item.swift in Sources */,
+				324DCF602BEDF91D00EEEAC2 /* OmanEyeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324DCF6B2BEDF92000EEEAC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324DCF742BEDF92000EEEAC2 /* OmanEyeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324DCF752BEDF92000EEEAC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				324DCF7E2BEDF92000EEEAC2 /* OmanEyeUITests.swift in Sources */,
+				324DCF802BEDF92000EEEAC2 /* OmanEyeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		324DCF712BEDF92000EEEAC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 324DCF5B2BEDF91D00EEEAC2 /* OmanEye */;
+			targetProxy = 324DCF702BEDF92000EEEAC2 /* PBXContainerItemProxy */;
+		};
+		324DCF7B2BEDF92000EEEAC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 324DCF5B2BEDF91D00EEEAC2 /* OmanEye */;
+			targetProxy = 324DCF7A2BEDF92000EEEAC2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		324DCF812BEDF92000EEEAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		324DCF822BEDF92000EEEAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		324DCF842BEDF92000EEEAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OmanEye/OmanEye.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OmanEye/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.OmanEye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		324DCF852BEDF92000EEEAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OmanEye/OmanEye.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OmanEye/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.OmanEye;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		324DCF872BEDF92000EEEAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.OmanEyeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OmanEye.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OmanEye";
+			};
+			name = Debug;
+		};
+		324DCF882BEDF92000EEEAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.OmanEyeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OmanEye.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OmanEye";
+			};
+			name = Release;
+		};
+		324DCF8A2BEDF92000EEEAC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.OmanEyeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OmanEye;
+			};
+			name = Debug;
+		};
+		324DCF8B2BEDF92000EEEAC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.OmanEyeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OmanEye;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		324DCF572BEDF91D00EEEAC2 /* Build configuration list for PBXProject "OmanEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324DCF812BEDF92000EEEAC2 /* Debug */,
+				324DCF822BEDF92000EEEAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		324DCF832BEDF92000EEEAC2 /* Build configuration list for PBXNativeTarget "OmanEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324DCF842BEDF92000EEEAC2 /* Debug */,
+				324DCF852BEDF92000EEEAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		324DCF862BEDF92000EEEAC2 /* Build configuration list for PBXNativeTarget "OmanEyeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324DCF872BEDF92000EEEAC2 /* Debug */,
+				324DCF882BEDF92000EEEAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		324DCF892BEDF92000EEEAC2 /* Build configuration list for PBXNativeTarget "OmanEyeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				324DCF8A2BEDF92000EEEAC2 /* Debug */,
+				324DCF8B2BEDF92000EEEAC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 324DCF542BEDF91D00EEEAC2 /* Project object */;
+}
